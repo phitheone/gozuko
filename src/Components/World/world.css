@@ -1,0 +1,57 @@
+.WSuper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.WContainer {
+  margin-top: 50px;
+  margin-bottom: 150px;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.WTitle h2 {
+  transform: translateY(80px);
+  font-size: 52px;
+  color: brown;
+}
+
+.WText {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 90%;
+  transform: translateY(80px);
+  z-index: 10;
+}
+
+.WText p {
+  font-size: 22px;
+}
+
+.WTParagraph {
+  padding: 0px 50px;
+}
+
+/* .WImage {} */
+
+.WImage img {
+  width: 100%;
+}
+
+/*===========Media  Queries============*/
+
+@media screen and (max-width: 768px) {
+  .WText {
+    flex-direction: column;
+  }
+
+  .WTitle h2 {
+    font-size: 32px;
+  }
+}

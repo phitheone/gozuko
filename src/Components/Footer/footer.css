@@ -1,0 +1,55 @@
+.FSuper {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Fcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 20px;
+  background-image: url(../../Images/square_border.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  /* border: 2px red solid; */
+}
+
+.FL img {
+  height: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.FT {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 220px;
+
+  /* border: solid 1px red; */
+}
+
+.FT img {
+  height: 35px;
+}
+
+.Fcontainer p {
+  color: antiquewhite;
+}
+
+/*===========Media  Queries============*/
+
+@media screen and (max-width: 500px) {
+  .FL img {
+    height: auto;
+    width: 80%;
+  }
+}

@@ -1,0 +1,40 @@
+.PSuper {
+  position: fixed;
+  right: 5%;
+  bottom: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 137px;
+  width: 270px;
+  /* background-image: url(../../Images/borderred1.png); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+
+  /* border: 2px red solid; */
+}
+
+.FrameImg {
+  position: absolute;
+  height: 95px;
+  z-index: -1;
+}
+
+.PlayPauseBtn img {
+  height: 50px;
+}
+
+.VolumeControl {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.VolumeControl img {
+  height: 30px;
+}

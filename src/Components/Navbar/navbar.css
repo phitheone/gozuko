@@ -1,0 +1,67 @@
+.NBSuper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  position: sticky;
+  top: 0;
+  z-index: 50;
+
+  overflow: hidden;
+  background-image: url(../../Images/bg2.png);
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  /* background-position: center; */
+  background-position: right 50% bottom 0%;
+  /* border-bottom: solid black 4px; */
+
+  /* border: solid greenyellow 1px; */
+}
+
+.NBContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+
+  /* border: solid greenyellow 1px; */
+}
+
+.NBContainer img {
+  height: 70px;
+}
+
+.MintBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid white 4px;
+  height: 25px;
+  animation: weewoo infinite ease-in-out 2s;
+}
+
+.MintBtn p {
+  color: white;
+  font-size: 24px;
+}
+
+@keyframes weewoo {
+  0% {
+    scale: 1;
+  }
+  50% {
+    scale: 1.15;
+  }
+}
+
+/*===========Media  Queries============*/
+
+@media screen and (max-width: 1150px) {
+  .NBContainer img {
+    height: 40px;
+  }
+}

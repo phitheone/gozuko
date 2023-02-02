@@ -1,0 +1,97 @@
+.C3Super {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.C3Container {
+  margin-top: 50px;
+  margin-bottom: 150px;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.C3Title h2 {
+  font-size: 52px;
+  color: brown;
+  margin-bottom: 0px;
+}
+
+.C3Title h3 {
+  margin-top: 0px;
+  font-size: 32px;
+  color: brown;
+}
+
+.C3SubContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.C3Image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.C3Image img {
+  width: 350px;
+}
+
+.C3Text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.C3Text p {
+  width: 100%;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+.C3Text h4 {
+  width: 90%;
+  margin-top: 0px;
+  font-size: 18px;
+  text-align: right;
+}
+
+/*===========Media  Queries============*/
+
+@media screen and (max-width: 1024px) {
+  .C3SubContainer {
+    flex-direction: column-reverse;
+  }
+
+  .C3Image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .C3Image img {
+    width: 100%;
+    max-width: 430px;
+  }
+
+  .C3Title h2 {
+    font-size: 32px;
+  }
+
+  .C3Title h3 {
+    font-size: 22px;
+  }
+}

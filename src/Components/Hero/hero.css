@@ -1,0 +1,25 @@
+.HSuper {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.HMainLogo {
+  height: 300px;
+}
+
+.HSubLogo {
+  height: 100px;
+  transform: translateX(300px);
+}
+
+/*===========Media  Queries============*/
+
+@media screen and (max-width: 1150px) {
+  .HMainLogo {
+    height: auto;
+    width: 90%;
+  }
+}
